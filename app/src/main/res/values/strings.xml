@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Woil</string>
+    <string name="app_version">Version 1.5.5</string>
+
+    <string name="level">Round %d of %d</string>
+    <string name="score">Your points : %d</string>
+    <string name="finish">Game finished!</string>
+    <string name="remaining_time">Remaining time : %d</string>
+    <string name="start_game">Start Game</string>
+    <string name="show_best_score">Show best score</string>
+    <string name="set_game_time">Set Game time</string>
+    <string name="show_about_me">About Me</string>
+    <string name="show_about_game">About Game</string>
+    <string name="show_settings">Settings</string>
+    <string name="title_about_game"><b>About Game</b></string>
+    <string name="title_about_me"><b>About Me</b></string>
+    <string name="title_set_time"><b>Set Time</b></string>
+    <string name="title_level"><b>Set Level</b></string>
+    <string name="do_not_be_tired">Do not be tired :)</string>
+    <string name="title_best_score">Best Score : </string>
+    <string name="subtitle_challenge_mode_time_full">Second Challenge</string>
+    <string name="subtitle_challenge_mode_time">Second</string>
+    <string name="subtitle_challenge_mode_text">Challenge mode:</string>
+    <string name="lets_go">Let\'s Go!</string>
+    <string name="default_point">Your points : 0</string>
+    <string name="equal">Equal</string>
+    <string name="select_time">Please select a game time:</string>
+    <string name="select_level">Please select a game level:</string>
+    <string name="unit_of_time_note">*The unit of time is seconds</string>
+    <string name="level_note">*The level of the game affects your scores</string>
+    <string name="tap_to_start">Tap to start!</string>
+    <string name="cheater_alert">Don\'t cheat!</string>
+    <string name="cheater_unblock_alert">Don\'t Repeat it again!</string>
+    <string name="faq"> FAQ </string>
+    <string name="see_the_best_record">See best record</string>
+    <string name="new_best_record">NEW RECORD!</string>
+
+    <string name="notif_me_title">Now is the time!</string>
+    <string name="notif_me_text">Challenge your brain and score better</string>
+
+
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="done">Done</string>
+
+    <string name="hard">Hard</string>
+    <string name="medium">Medium</string>
+    <string name="easy">Easy</string>
+
+
+    <string name="title_intro_1">Educational tour</string>
+    <string name="text_intro_1">Hello! We want to get acquainted with Woil game again, so join me!</string>
+
+    <string name="title_intro_2">Challenge your brain</string>
+    <string name="text_intro_2">You have to try to have the fastest reactions and the fastest calculations to get the best score.</string>
+
+    <string name="title_intro_3">Choose the larger</string>
+    <string name="text_intro_3">The game is such that you have to click on a number bigger than two numbers that show you, if they are equal you have to use the equal button.</string>
+
+    <string name="title_intro_4">Be the best</string>
+    <string name="text_intro_4">You will get the best score by registering the correct answers in the shortest possible time. How to calculate points is based on the time you choose.</string>
+
+    <string name="title_intro_5">Everything is ready</string>
+    <string name="text_intro_5">Again, if you have a question, you can answer it through the FAQ section and the game site, Let\'s go!</string>
+
+
+    <string name="note_score"><b>How to calculate points:</b>\n
+        In the 60-second match, 10 points are considered for each correct answer and 5 points for each incorrect answer.\n
+        In the 30-second match, 20 points are considered for each correct answer and 10 points for each incorrect answer.\n
+        In the 10-second match, 60 points are considered for each correct answer and 30 points for each incorrect answer.\n
+        In the 5-second match, 120 points are considered for each correct answer and 60 points for each incorrect answer.\n
+        All points are multiplied by the level of the game:\n
+        Easy level = X2 , Medium level = X3 , Hard level = X4
+    </string>
+
+    <string name="note_game">
+        <b>What does Woil mean?</b>\n
+        Woil stands for which one is larger.\n\n
+
+        <b>How exactly does it work?</b>\n
+        By choosing a larger number between the next two numbers at a certain time you get points according to the rules of the game.\n\n
+
+        <b>What is the benefit of this game?</b>\n
+        This game is very useful for speeding up calculations and speed of reaction!
+    </string>
+
+    <string name="about_me_pro">
+        <b>Programmer:</b>\n MimSad
+    </string>
+
+    <string name="about_me_ema">
+        <b>Email address:</b>\n mimsadart@gmail.com
+    </string>
+
+    <string name="about_me_num">
+        <b>Phone number:</b>\n 09300713083
+    </string>
+
+    <string name="channel_name" translatable="false">Come Back</string>
+    <string name="channel_description" translatable="false">Cheering notifications to play</string>
+
+    <string name="set_sound_status">Sounds &amp; music :</string>
+    <string name="set_language_status">Language :</string>
+    <string name="set_theme_status">Theme :</string>
+
+    <string name="alert_language">Language changed!</string>
+    <string name="alert_language_dc">So what is language now? XD</string>
+    <string name="alert_auto_theme">Auto mode is activated!</string>
+    <string name="alert_light_theme">Light mode is activated!</string>
+    <string name="alert_dark_theme">Dark mode is activated!</string>
+    <string name="alert_shake">Caaalm dooown!</string>
+    <string name="alert_exit">Press the back again to exit :)</string>
+    <string name="alert_exit_game">Are you sure you want to go out? \n So press again :(</string>
+    <string name="alert_save_record">Your record image was saved successfully!</string>
+    <string name="share_record_tab_dialog">Share record via…</string>
+    <string name="share_record_intent_title">New Record</string>
+
+    <string name="dark_mode_force">A beggar can never be bankrupt!</string>
+
+    <string name="permission_needed_title">Permission needed</string>
+    <string name="permission_needed_text">We need access to your device storage to save the image, please accept :)</string>
+    <string name="permission_needed_ok">OK!</string>
+    <string name="permission_needed_cancel">Cancel…</string>
+    <string name="permission_needed_else">Storage permission not granted :(</string>
+
+    <string name="share_text_message">🌟 This is my new record! \n
+😎 You can also challenge your brain with «Woil» and compete with me… \n
+😍 All you have to do now is download this challenge game from the link below and after installing it, send your record to me: \n
+🔗 Http://WoilDev.blog.ir</string>
+
+    <string-array name="true_dialog">
+        <item>Excellent</item>
+        <item>Great</item>
+        <item>Fine</item>
+        <item>Bravo</item>
+        <item>Good</item>
+    </string-array>
+
+    <string-array name="false_dialog">
+        <item>Bad</item>
+        <item>Pay more attention</item>
+        <item>Watch out</item>
+        <item>Wrong</item>
+        <item>Mistake</item>
+    </string-array>
+
+</resources>

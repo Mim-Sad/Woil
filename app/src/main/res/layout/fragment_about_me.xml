@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/backNight"
+    android:gravity="center"
+    android:clickable="true"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/iconSlide"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/ic_icons8_more_info"
+        app:tint="@color/teal_700"
+        android:layout_marginBottom="-10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_about_me"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:textSize="30sp"
+        android:textColor="@color/purple_500"
+        />
+
+
+    <TextView
+        android:id="@+id/my_site"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_me_pro"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:textSize="18sp"
+        style="@style/frontLight"
+        android:lineHeight="30dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        />
+
+    <TextView
+        android:id="@+id/my_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_me_ema"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:textSize="18sp"
+        style="@style/frontLight"
+        android:lineHeight="30dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        />
+
+    <TextView
+        android:id="@+id/my_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_me_num"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:textSize="18sp"
+        style="@style/frontLight"
+        android:lineHeight="30dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(◠‿◠) "
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/gray"
+        android:id="@+id/easter_egg"
+        android:lineHeight="30dp"
+        />
+
+
+</LinearLayout>
